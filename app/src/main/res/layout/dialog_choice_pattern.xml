@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/details_base_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/details_select_image_group">
+
+            <LinearLayout
+                android:id="@+id/details_select_info_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:minHeight="85dp"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="130dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/details_select_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥500.00"
+                    android:textColor="#ff0000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/details_select_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="请选择:\t尺码\t颜色分类"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/details_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/details_select_info_group"
+                android:padding="8dp"
+                app:srcCompat="@drawable/draw_round_close" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/details_select_image_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="2dp"
+                app:cardUseCompatPadding="true"
+                app:contentPadding="4dp">
+
+                <ImageView
+                    android:id="@+id/details_select_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/icon_img_2" />
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#EEEEEE" />
+
+    <TextView
+        android:id="@+id/details_select_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:text="颜色"
+        android:textColor="#333333"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="50dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#EEEEEE" />
+
+    <TextView
+        android:id="@+id/details_select_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="尺码"
+        android:background="@color/white"
+        android:textColor="#333333"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/details_select_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF0037"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="确定"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</LinearLayout>

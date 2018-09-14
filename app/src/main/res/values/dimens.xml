@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_size_24">24sp</dimen>
+    <dimen name="margin_size_300">300dp</dimen>
+</resources>
