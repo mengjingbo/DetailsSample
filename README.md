@@ -3,3 +3,4 @@
 ![](https://github.com/mengjingbo/DetailsSample/blob/master/imgae/image01.png)
 ![](https://github.com/mengjingbo/DetailsSample/blob/master/imgae/image02.png)
 ![](https://github.com/mengjingbo/DetailsSample/blob/master/imgae/image03.png)
+![](https://github.com/mengjingbo/DetailsSample/blob/master/imgae/details.gif)
