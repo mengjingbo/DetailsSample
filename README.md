@@ -4,3 +4,4 @@
 ![](https://github.com/mengjingbo/DetailsSample/blob/master/imgae/image01.png)
 ![](https://github.com/mengjingbo/DetailsSample/blob/master/imgae/image02.png)
 ![](https://github.com/mengjingbo/DetailsSample/blob/master/imgae/image03.png)
+<img src="https://github.com/mengjingbo/DetailsSample/blob/master/imgae/image03.png" width="720" height="480" />
